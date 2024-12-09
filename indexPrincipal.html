@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Pessoal</title>
+    <link rel="stylesheet" href="/style/stylePrincipal.css">
+    
+    
+</head>
+
+<body>
+    
+    
+    <header> 
+        <p>Bem-vindo ao meu portfólio!</p> 
+    </header> 
+    
+    
+    <section id="sec" > 
+
+        <div>
+            <img src="img/foto.png" alt="" srcset="" width="150px">
+        </div>
+        
+        <a href="/sobre.html" onclick="showSection('sobre')">Sobre Mim</a>
+        <a href="/formacao.html" onclick="showSection('formacao')">Formação</a>
+        <a href="/portfolio.html" onclick="showSection('portfolio')">Portfólio</a>
+        <a href="/contato.html" onclick="showSection('contato')">Contato</a>
+        
+    </section> 
+        
+    <div id="sobre"> 
+        <h2>Sobre Mim</h2> 
+        <p>Informações sobre mim, meus hobbies, etc.</p> 
+    </div> 
+            
+    <div id="formacao"> 
+        <h2>Formação</h2> 
+        <p>Detalhes sobre minha formação educacional e idiomas.</p> 
+    </div> 
+    <div id="portfolio"> 
+        <h2>Portfólio</h2> 
+        <p>Links para outros sites que desenvolvi.</p> 
+    </div> 
+    
+    <section id="contato"> 
+        <h2>Contato</h2>
+    
+        <form> 
+            <label for="nome">Nome:</label><br> 
+            <input type="text" id="nome" name="nome"><br> 
+            <label for="email">Email:</label><br> 
+            <input type="email" id="email" name="email"><br> 
+            <label for="mensagem">Mensagem:</label><br> 
+            <textarea id="mensagem" name="mensagem"></textarea><br> 
+            <input type="submit" value="Enviar"> 
+        </form> 
+    </section>
+    
+    <footer> 
+        <p>&copy; 2024 Portfólio Pessoal. Todos os direitos reservados.</p> 
+    </footer> 
+    <script src="script.js"></script>
+    
+</body>
+</html>
